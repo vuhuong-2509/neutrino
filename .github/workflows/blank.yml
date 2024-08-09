@@ -1,0 +1,7 @@
+name: Run a Python script
+  run: |
+    python 
+    print('Hello, world!')
+    for i in range(5):
+        print(f'Number {i}')
+  
